@@ -1,3 +1,9 @@
+cisco-auditing-tool (1.0-1kali1) kali; urgency=low
+
+  * Kali Version
+
+ -- dookie <dookie@kali.org>  Wed, 07 Nov 2012 10:25:09 -0700
+
 cisco-auditing-tool (1.0-1) kali; urgency=low
 
   * Initial release 
