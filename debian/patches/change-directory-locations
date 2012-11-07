@@ -1,0 +1,25 @@
+As coded, CAT looks for the lib/ and plugins/ directories
+to be co-located with the main script.
+This patch points it to /usr/share/cisco-auditing-tools/ instead.
+--- a/CAT
++++ b/CAT
+@@ -1,14 +1,14 @@
+ #!/usr/bin/perl
+ #
+ 
+-use lib './lib';
++use lib '/usr/share/cisco-auditing-tool/lib';
+ use Getopt::Std;
+ $|=1;
+ 
+-require './plugins/usage';
+-require './plugins/brute';
+-require './plugins/snmp';
+-require './plugins/ihist';
++require '/usr/share/cisco-auditing-tool/plugins/usage';
++require '/usr/share/cisco-auditing-tool/plugins/brute';
++require '/usr/share/cisco-auditing-tool/plugins/snmp';
++require '/usr/share/cisco-auditing-tool/plugins/ihist';
+ 
+ getopts("h:f:p:w:a:l:iq", \%args);
+ if(!%args)
