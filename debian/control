@@ -1,0 +1,16 @@
+Source: cisco-auditing-tool
+Section: net
+Priority: extra
+Maintainer: dookie <dookie@kali.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.scrypt.net/
+Vcs-Git: ssh://git@git.kali.org/packages/cisco-auditing-tool.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/cisco-auditing-tool.git;a=summary
+
+Package: cisco-auditing-tool
+Architecture: all
+Depends: ${misc:Depends}, perl
+Description: Scans Cisco routers for vulnerabilities
+ Perl script which scans cisco routers for common vulnerabilities.
+

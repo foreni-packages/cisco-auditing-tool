@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=cisco-auditing-tool
+Encoding=UTF-8
+Exec=sh -c "CAT;sudo -s"
+Icon=kali-menu.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=02-02-01-cisco-tools;06-01-01-cisco-attacks;
