@@ -1,4 +1,3 @@
-debian/kali-cisco-auditing-tool.desktop usr/share/applications/
 CAT usr/bin/
 lib/ usr/share/cisco-auditing-tool/
 plugins/ usr/share/cisco-auditing-tool/
